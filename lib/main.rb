@@ -1,5 +1,5 @@
 class Main
   def self.init
-    puts "hello"
+    Menu::MainMenu.show
   end
 end
