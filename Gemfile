@@ -3,6 +3,7 @@ source "https://rubygems.org"
 
 gem 'mysql2'
 gem 'dotenv-rails'
+gem 'require_all'
 
 group :development, :test do
   gem 'webmock'

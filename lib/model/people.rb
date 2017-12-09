@@ -1,3 +1,3 @@
-class People 
+class People
 
 end

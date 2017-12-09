@@ -72,6 +72,7 @@ GEM
     rainbow (2.2.2)
       rake
     rake (12.3.0)
+    require_all (1.4.0)
     rspec (3.7.0)
       rspec-core (~> 3.7.0)
       rspec-expectations (~> 3.7.0)
@@ -112,6 +113,7 @@ DEPENDENCIES
   dotenv-rails
   mysql2
   pry
+  require_all
   rspec
   rubocop
   webmock
