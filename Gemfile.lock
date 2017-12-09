@@ -21,6 +21,7 @@ GEM
       tzinfo (~> 1.1)
     addressable (2.5.2)
       public_suffix (>= 2.0.2, < 4.0)
+    artii (2.1.2)
     ast (2.3.0)
     builder (3.2.3)
     byebug (9.1.0)
@@ -109,6 +110,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  artii
   byebug
   dotenv-rails
   mysql2

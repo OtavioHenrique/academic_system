@@ -4,6 +4,7 @@ source "https://rubygems.org"
 gem 'mysql2'
 gem 'dotenv-rails'
 gem 'require_all'
+gem 'artii'
 
 group :development, :test do
   gem 'webmock'
