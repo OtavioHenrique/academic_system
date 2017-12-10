@@ -5,6 +5,7 @@ gem 'mysql2'
 gem 'dotenv-rails'
 gem 'require_all'
 gem 'artii'
+gem 'colorize'
 
 group :development, :test do
   gem 'webmock'
