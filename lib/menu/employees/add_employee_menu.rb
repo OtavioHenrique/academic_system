@@ -18,6 +18,15 @@ module Menu
           role = gets.chomp
           print "Salary: "
           salary = gets.chomp
+
+          add_employee(name, last_name, document, sector, role, salary)
+        end
+
+        private
+
+        def add_employee(name, last_name, document, sector, role, salary)
+          Services::Employees::EmployeesRepository.create(name, last_name,
+            document, sector, role, salary)
         end
       end
     end
